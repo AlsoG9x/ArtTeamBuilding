@@ -43,15 +43,16 @@ h2{
 }
 .col-md-6{
 	background-color: #1FBFDC;
-	height: 320px;
+	height: 400px;
 }
 .item{
-	height: 100px;
+	height: 150px;
 }
 .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{
-	position:relative;
-	left: 38vw;
-	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
 }
 .carousel-control.right{
 	background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(31,191,205,1) 100%);
@@ -59,4 +60,11 @@ h2{
 .carousel-control.left{
 background-image: linear-gradient(to left,rgba(0,0,0,.0001) 0,rgba(31,191,205,1) 100%);
 
+}
+
+.sub1{
+color:#666666;
+}
+.sub2{
+	margin-top: 70px;
 }
