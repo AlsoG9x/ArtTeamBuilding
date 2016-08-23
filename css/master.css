@@ -1,31 +1,17 @@
-body{
+@font-face{
 	font-family: Source-Sans-Pro-Regular;
+	src: url(SourceSansPro-Regular.otf);
+}
+@font-face{
+	font-family: Frutiger
+	src: url(Frutiger.ttf)
+}
+body{
+	font-family: Frutiger;
 	text-align: center;
-	font-size: 22px;
-}
-div.gen:nth-child(2n+1){
-	background-color: #1FBFDC;
-}
-div.gen:nth-child(2n){
-	background-color:#F76E64 ;
-}
-div.gen{
-	height:100vh;
-	padding-left: 18%;
-	padding-right: 18%;
 }
 #main{
 	background-color:#ffffff;
-}
-.marg5{
-	margin-top: 5%;
-}
-
-div > a > img{
-	margin: 10px;
-}
-#thirdrow{
-	margin-top: 6%;		
 }
 .Red{
 	color: #F76E64;
@@ -33,73 +19,44 @@ div > a > img{
 .Cyan{
 	color: #1FBFDC;
 }
+a{
+	color: white;
+	font-size: 20px;
+	text-decoration: underline;
+}
 a:hover{
-	
+	color:black;
+	text-decoration: none;
 }
-.panel-body{
-	padding-top: 5vh;
-	padding-bottom: 5vh;
-}
-.panel-heading{
-	background-color: #F76E64 !important;
-}
-.panel-body:nth-child(2n){
-	background-color: #FCE5DF;	
-}
-.panel-body:nth-child(2n+1){
-	background-color: #F0DBD5;
-}
-#agenda{
-	-ms-transform: rotate(-7deg);
-	-webkit-transform: rotate(-7deg);
-	transform: rotate(-7deg);
-	margin-top: 30px;
-}
-@font-face{
-	font-family: Metsys-Bold;
-	src: url(Metsys-Bold.ttf);
-}
-@font-face{
-	font-family: Source-Sans-Pro-Regular;
-	src: url(SourceSansPro-Regular.otf);
+h1{
+margin-top: 0px;
+font-size: 50px;
 }
 h1,h2{
-	font-family: Metsys-Bold;
+	font-family: Frutiger;
+	font-weight: bold;
 }
-a#ToTop{
-	position: fixed;
-	z-index: 999;
-	right: 30px;
-	bottom: 20px;
+h2{
+	margin:0px;
+	font-size: 30px;
+	font-style: italic;
 }
-#arrow{
-	transform: rotate(90deg);
+.col-md-6{
+	background-color: #1FBFDC;
+	height: 320px;
 }
-.navbar{
-	border-radius: 0px;
+.item{
+	height: 100px;
 }
-.navbar-default{
-	background-color: transparent;
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{
+	position:relative;
+	left: 38vw;
+	height: 100px;
 }
-#navbarleft{
-	z-index: 999;
-	position:fixed;
-	height: 100vh;
-	border: none;
+.carousel-control.right{
+	background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(31,191,205,1) 100%);
 }
-#leftCol{
-	background-color: rgba(100,100,100,0.4);
-}
-.nav > li > a{
-	padding-top: 5.5vh;
-	padding-bottom: 5.5vh;
-	color: black;
-}
-.nav > li > a:hover{
-	background-color:  #FCE5DF;
-}
-.nav > li.active{
-	border:0 black solid;
-	border-right-width: 5px;
-}
+.carousel-control.left{
+background-image: linear-gradient(to left,rgba(0,0,0,.0001) 0,rgba(31,191,205,1) 100%);
 
+}
