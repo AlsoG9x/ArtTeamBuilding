@@ -32,7 +32,7 @@ h1{
 margin-top: 0px;
 font-size: 50px;
 }
-h1,h2{
+h1,h2,h3{
 	font-family: Frutiger;
 	font-weight: bold;
 }
@@ -67,4 +67,7 @@ color:#666666;
 }
 .sub2{
 	margin-top: 70px;
+}
+.ekko-lightbox-container > div > img {
+	height: auto;
 }

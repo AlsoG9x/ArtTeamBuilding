@@ -26,7 +26,8 @@
 	<div class="row">
 	
 	
-	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="1000">
+		<h3 style="background-color:#1FBFDC;margin-top:10px;margin-bottom:0px;">Ils nous ont fait confiance</h3>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="1000" style="margin-top:0px;">
   <!-- Indicators
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -53,7 +54,39 @@
 	<div class="item">
       <img src="images/logo ange michel.jpg"  alt="Ange Michel" class="logo">
     </div>
+	
+	<div class="item">
+      <img src="images/logo april.jpg"  alt="April" class="logo">
+    </div>
+	
+	<div class="item">
+      <img src="images/logo atix interim.png"  alt="Atix Interim" class="logo">
+    </div>
 
+	<div class="item">
+      <img src="images/logo cic.png"  alt="cic" class="logo">
+    </div>
+
+	<div class="item">
+      <img src="images/logo davricourt consulting.png"  alt="davricourt consulting" class="logo">
+    </div>
+
+	<div class="item">
+      <img src="images/logo elessemo.jpg"  alt="elessemo" class="logo">
+    </div>
+
+	<div class="item">
+      <img src="images/logo-harmonie medical service.png"  alt="harmonie medical" class="logo">
+    </div>
+
+	<div class="item">
+      <img src="images/logo la poste.jpg"  alt="la poste" class="logo">
+    </div>
+
+
+	<div class="item">
+      <img src="images/logo sanofi.jpg"  alt="sanofi" class="logo">
+    </div>
 
 
 
@@ -75,7 +108,8 @@
 	<div class="col-md-6">
 		<h2 class="sub1">EN VRAI</h2>
 		<div class="sub2">
-		<img src="images/flyer.jpg" alt="flyer open app'art" style="height:30vh;margin-top:30px;">
+		<a href="images/FlyerOpenAppArt2.jpg" data-toggle="lightbox">
+		<img src="images/FlyerOpenAppArt2.jpg" alt="flyer open app'art" style="height:30vh;margin-top:30px;"></a>
 		</div></div>
 		<div class="col-md-6">
 		<h2 class="sub1">SUR INTERNET</h2>
@@ -96,5 +130,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-  </body>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.js"></script>
+	<script>
+$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
+</script>
+	</body>
 </html>
